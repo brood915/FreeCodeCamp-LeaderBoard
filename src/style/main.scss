@@ -1,0 +1,112 @@
+@media screen and (max-width: 460px) {
+  .bodyContainer {
+    width: 100% !important;
+  }
+}
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #D7FFF1;
+  color: #285943;
+}
+
+header,
+footer {
+  width: 100%;
+  background-color: #285943;
+  height: 50px;
+  text-align: center;
+}
+
+footer {
+  font-weight: bold;
+  color: white;
+  height: 30px;
+  padding-top: 10px;
+}
+
+header .logo {
+  margin-top: 10px;
+  width: 250px;
+}
+
+h3 {
+  background-color: #285943;
+}
+
+td,
+th {
+  border: 2px solid #D7FFF1;
+  text-align: center;
+}
+
+th {
+  height: 30px;
+  font-size: 20px;
+}
+
+.bodyContainer {
+  width: 70%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 35px;
+  font-size: 30px;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  background-color: white;
+  td {
+    img {
+      width: 40px;
+      height: 40px;
+      margin: 4px 10px 4px 0px;
+      border: #285943 2px solid;
+      border-radius: 10px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.left {
+  text-align: left;
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+[value] {
+  cursor: pointer;
+}
+
+.activated {
+  background-color: #77AF9C;
+  color: white;
+  cursor: default;
+}
