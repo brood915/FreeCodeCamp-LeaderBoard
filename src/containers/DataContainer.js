@@ -18,7 +18,8 @@ class DataContainer extends React.Component {
       this.setState({
         users: json
       })
-    })
+    }).catch(function() {
+    console.log('request failed')});
   }
 
   clickHandler(e) {

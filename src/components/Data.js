@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Data(props) {
+class Data extends React.Component {
+  render() {
     let count = 0;
     return (<table>
+      <tbody>
         <tr>
           <th className="left">#</th>
           <th className="left">Name</th>
@@ -16,7 +18,8 @@ function Data(props) {
                                 <td className="left"><a target="_blank" href={'https://www.freecodecamp.com/' + each.username}><img src={each.img}/><span>{each.username}</span></a></td><td>{each.recent}</td>
                                 <td>{each.alltime}</td>
        </tr>);})}
-      </table>);
+      </tbody></table>);
+  }
 }
 
 Data.propTypes = {
