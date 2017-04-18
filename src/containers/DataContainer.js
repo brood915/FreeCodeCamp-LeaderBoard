@@ -1,6 +1,7 @@
 import React from 'react';
 import 'whatwg-fetch';
 import Data from '../components/Data';
+import styles from '../style/main.scss';
 
 class DataContainer extends React.Component {
   constructor(props) {
@@ -32,7 +33,7 @@ class DataContainer extends React.Component {
     this.getData();
   }
   render() {
-    return (<div className = "bodyContainer">
+    return (<div className = {styles.bodyContainer}>
         <h3>Leaderboard</h3>
       <Data users = {this.state.users} type = {this.state.type} activate = {this.clickHandler.bind(this)}/></div>);
   }
