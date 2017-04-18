@@ -20,7 +20,9 @@ function Data(props) {
 }
 
 Data.propTypes = {
-  
+  type: PropTypes.string.isRequired,
+  users: PropTypes.array.isRequired,
+  activate: PropTypes.func.isRequired
 }
 
 export default Data;

@@ -36,3 +36,5 @@ class DataContainer extends React.Component {
       <Data users = {this.state.users} type = {this.state.type} activate = {this.clickHandler.bind(this)}/></div>);
   }
 }
+
+export default DataContainer;
