@@ -5,6 +5,8 @@ Shows the top 100 coders from FreeCodeCamp.
 Users can toggle between sorting the list by how many brownie points they've 
 earned in the past 30 days and by how many brownie points they've earned 
 total.
+
+Used ReactJS, SCSS, and FreeCodeCamp RESTful API.
 ```
 
 
