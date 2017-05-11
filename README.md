@@ -1,5 +1,7 @@
 # FreeCodeCamp LeaderBoard
 
+Demo: https://brood915.github.io/FreeCodeCamp-LeaderBoard
+
 ```
 Shows the top 100 coders from FreeCodeCamp. 
 Users can toggle between sorting the list by how many brownie points they've 
@@ -18,5 +20,3 @@ npm run start to start webpack-dev-server
 server running at localhost:1337
 
 ```
-
-codepen: https://codepen.io/brood915/full/ggmzwQ/
