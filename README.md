@@ -1,7 +1,6 @@
 # FreeCodeCamp LeaderBoard
 
-Demo: https://brood915.github.io/FreeCodeCamp-LeaderBoard
-
+Demo: https://brood915.github.io/FreeCodeCamp-LeaderBoard/
 ```
 Shows the top 100 coders from FreeCodeCamp. 
 Users can toggle between sorting the list by how many brownie points they've 
