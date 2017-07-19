@@ -11,11 +11,20 @@ Used ReactJS, SCSS, and FreeCodeCamp RESTful API.
 ```
 
 
-### To run this application
+### Quick start
+```bash
+# clone repo
+$ git clone https://github.com/brood915/FreeCodeCamp-LeaderBoard.git
 
-```
-npm install to install all dependencies
-npm run start to start webpack-dev-server
-server running at localhost:1337
+# change directory to the app
+$ cd freecodecamp-leaderboard
 
+# install the dependencies with npm
+$ npm install
+
+# start the server
+$ npm start
+
+# start the app
+$ Go to http://localhost:1337 in your browser.
 ```
